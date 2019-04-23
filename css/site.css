@@ -16,3 +16,13 @@
     width: 1200px;
   }
 }
+
+.indexTitleLink{
+  color: #000;
+  text-decoration: none;
+}
+
+.indexTitleLink:hover{
+  color: #000;
+  text-decoration: none;
+}
