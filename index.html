@@ -372,6 +372,7 @@
 $(function(){
   $(".picturesLarsSilders").hide();
   $(".picturesFabianSilders").hide();
+  $(".picturesNickSilders").hide();
 
   $('.carousel').carousel({
   interval: 10000
@@ -388,6 +389,13 @@ $(".btnFabianSlider").click(function(){
   $(".picturesFabianSilders").toggle();
   if($(".btnFabianSlider").val() == "Bilder anzeigen"){
     $(".btnFabianSlider").val("Verstecken anzeigen")
+  }
+});
+
+$(".btnNickSlider").click(function(){
+  $(".picturesNickSilders").toggle();
+  if($(".btnNickSlider").val() == "Bilder anzeigen"){
+    $(".btnNickSlider").val("Verstecken anzeigen")
   }
 });
 });
