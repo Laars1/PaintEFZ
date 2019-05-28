@@ -180,11 +180,8 @@ $(function(){
 
 $(".btnLarsSlider").click(function(){
   $(".picturesLarsSilders").toggle();
-  if($(".btnLarsSlider").html() == "Bilder anzeigen"){
-    $(".btnLarsSlider").html("Bilder verstecken");
-  }
-  else{
-    $(".btnLarsSlider").html("Bilder anzeigen");
+  if($(".btnLarsSlider").val() == "Bilder anzeigen"){
+    $(".btnLarsSlider").val("Verstecken anzeigen")
   }
 });
 
